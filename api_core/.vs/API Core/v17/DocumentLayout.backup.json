@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|c:\\users\\admin\\desktop\\dev\\api_core\\middleware\\decryptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|solutionrelative:middleware\\decryptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|c:\\users\\admin\\desktop\\dev\\api_core\\middleware\\middlewareclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|solutionrelative:middleware\\middlewareclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|c:\\users\\admin\\desktop\\dev\\api_core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|c:\\users\\admin\\desktop\\dev\\api_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|c:\\users\\admin\\desktop\\dev\\api_core\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AD85FB-BA06-4D6B-8285-FF285E4C629F}|API Core.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DecryptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Middleware\\DecryptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\DecryptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Middleware\\DecryptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\DecryptionMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:53:55.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA5wDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:17:24.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T13:12:04.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:12:00.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiddlewareClass.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Middleware\\MiddlewareClass.cs",
+              "RelativeDocumentMoniker": "Middleware\\MiddlewareClass.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\Middleware\\MiddlewareClass.cs",
+              "RelativeToolTip": "Middleware\\MiddlewareClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:55:55.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

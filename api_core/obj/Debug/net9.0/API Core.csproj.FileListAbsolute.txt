@@ -1,0 +1,108 @@
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\appsettings.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.staticwebassets.endpoints.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.exe
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.deps.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.runtimeconfig.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\API Core.pdb
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.csproj.AssemblyReference.cache
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.AssemblyInfoInputs.cache
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.AssemblyInfo.cs
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.csproj.CoreCompileInputs.cache
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\scopedcss\bundle\API Core.styles.css
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets\msbuild.API Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets\msbuild.API Core.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets\msbuild.build.API Core.props
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.API Core.props
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.API Core.props
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.csproj.Up2Date
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\refint\API Core.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.pdb
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.genruntimeconfig.cache
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\ref\API Core.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Khun Brosty\Desktop\API C#\API Core\obj\Debug\net9.0\API Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\Oracle.ManagedDataAccess.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\System.DirectoryServices.Protocols.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Khun Brosty\Desktop\API C#\API Core\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.staticwebassets.endpoints.json
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\appsettings.json
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.exe
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.deps.json
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\API Core.pdb
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\System.DirectoryServices.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\scopedcss\bundle\API Core.styles.css
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets\msbuild.API Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets\msbuild.API Core.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets\msbuild.build.API Core.props
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.API Core.props
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.API Core.props
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.csproj.Up2Date
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.dll
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\refint\API Core.dll
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.pdb
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\API Core.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Dev\api_core\obj\Debug\net9.0\ref\API Core.dll
