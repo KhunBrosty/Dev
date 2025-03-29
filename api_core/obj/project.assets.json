@@ -1223,23 +1223,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\KhunBrosty\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\API Core.csproj",
+      "projectUniqueName": "C:\\Users\\KhunBrosty\\Desktop\\New folder (2)\\Dev\\api_core\\API Core.csproj",
       "projectName": "API Core",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\API Core.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Dev\\api_core\\obj\\",
+      "projectPath": "C:\\Users\\KhunBrosty\\Desktop\\New folder (2)\\Dev\\api_core\\API Core.csproj",
+      "packagesPath": "C:\\Users\\KhunBrosty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KhunBrosty\\Desktop\\New folder (2)\\Dev\\api_core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KhunBrosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/home/home.dart';
 import 'package:flutter_app/login/bloc/login_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -58,6 +57,11 @@ class Login extends StatelessWidget {
                     passwordController.text,
                   ),
               child: const Text('Login'),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => context.read<LoginBloc>().add(GetUser()),
+              child: const Text('Get User'),
             ),
           ],
         ),

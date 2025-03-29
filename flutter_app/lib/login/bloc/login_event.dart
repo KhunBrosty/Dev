@@ -9,6 +9,10 @@ class LoginSubmitted extends LoginEvent {
   LoginSubmitted(this.username, this.password);
 }
 
+class GetUser extends LoginEvent {
+  GetUser();
+}
+
 class LoginLogout extends LoginEvent {
   LoginLogout();
 }

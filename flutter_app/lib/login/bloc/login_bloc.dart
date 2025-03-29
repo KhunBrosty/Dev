@@ -17,5 +17,13 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
         print(e.toString());
       }
     });
+    on<GetUser>((event, emit) async {
+      try {
+        await _loginrepository.getUser();
+        emit(LoginSuccess("Loggin Success"));
+      } catch (e) {
+        print(e.toString());
+      }
+    });
   }
 }

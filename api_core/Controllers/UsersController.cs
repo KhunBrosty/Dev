@@ -40,57 +40,62 @@ namespace API_Core.Controllers
         public async Task<List<UsesModles>> Get()
         {
             List<UsesModles> result = new List<UsesModles>();
-            using (var con = new OracleConnection(_connectionString))
+            result.Add(new UsesModles
             {
-                await con.OpenAsync();
-                using (var cmd = con.CreateCommand())
-                {
-                    cmd.CommandText = "SELECT * FROM USERS";
-                    using (var reader = await cmd.ExecuteReaderAsync())
-                    {
-                        DataTable dt = new DataTable();
-                        dt.Load(reader);
-                        foreach (DataRow row in dt.Rows)
-                        {
-                            result.Add(new UsesModles
-                            {
-                                Username = row["USERNAME"].ToString(),
-                                Password = row["PASSWORD"].ToString()
-                            });
-                        }
-                    }
-                }
-            }
+                Username = "ABC",
+                Password = "DEF"
+            });
+            //using (var con = new OracleConnection(_connectionString))
+            //{
+            //    await con.OpenAsync();
+            //    using (var cmd = con.CreateCommand())
+            //    {
+            //        cmd.CommandText = "SELECT * FROM USERS";
+            //        using (var reader = await cmd.ExecuteReaderAsync())
+            //        {
+            //            DataTable dt = new DataTable();
+            //            dt.Load(reader);
+            //            foreach (DataRow row in dt.Rows)
+            //            {
+            //                result.Add(new UsesModles
+            //                {
+            //                    Username = row["USERNAME"].ToString(),
+            //                    Password = row["PASSWORD"].ToString()
+            //                });
+            //            }
+            //        }
+            //    }
+            //}
 
             return result;
         }
 
         [HttpPost("/login")]
-        [ServiceFilter(typeof(MiddlewareClass))]
         public async Task<IActionResult> Post([FromBody] UsesModles request)
         {
+            //return Ok(new { accessToken = "asdasd", user = "sdfsdf"});
             UsesModles result = new UsesModles();
-            using (var con = new OracleConnection(_connectionString))
-            {
-                await con.OpenAsync();
-                using (var cmd = con.CreateCommand())
-                {
-                    cmd.CommandText = "SELECT * FROM USERS WHERE USERNAME = :username AND PASSWORD = :password";
-                    cmd.Parameters.Add("username", OracleDbType.Varchar2).Value = request.Username;
-                    cmd.Parameters.Add("password", OracleDbType.Varchar2).Value = request.Password;
-                    using (var reader = await cmd.ExecuteReaderAsync())
-                    {
-                        DataTable dt = new DataTable();
-                        dt.Load(reader);
+            //using (var con = new OracleConnection(_connectionString))
+            //{
+                //await con.OpenAsync();
+                //using (var cmd = con.CreateCommand())
+                //{
+                //    cmd.CommandText = "SELECT * FROM USERS WHERE USERNAME = :username AND PASSWORD = :password";
+                //    cmd.Parameters.Add("username", OracleDbType.Varchar2).Value = request.Username;
+                //    cmd.Parameters.Add("password", OracleDbType.Varchar2).Value = request.Password;
+                //    using (var reader = await cmd.ExecuteReaderAsync())
+                //    {
+                //        DataTable dt = new DataTable();
+                //        dt.Load(reader);
 
-                        if (dt.Rows.Count == 0)
-                            return BadRequest("Username or Password is incorrect");
+                //        if (dt.Rows.Count == 0)
+                //            return BadRequest("Username or Password is incorrect");
                         
-                        var userInfo = dt.Rows[0]["USERNAME"].ToString()!;
+                //        var userInfo = dt.Rows[0]["USERNAME"].ToString()!;
                         // Create access and refresh token
                         var claims = new List<Claim>
                         {
-                            new Claim(ClaimTypes.Name, userInfo)
+                            new Claim(ClaimTypes.Name, "asdad")
                         };
 
                         var accesskey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_accessKey));
@@ -115,22 +120,46 @@ namespace API_Core.Controllers
                         var accessTokenString = new JwtSecurityTokenHandler().WriteToken(accessToken);
                         var refreshTokenString = new JwtSecurityTokenHandler().WriteToken(refreshToken);
 
-                        // Set Refresh Token as HttpOnly cookie
-                        var cookieOptions = new CookieOptions
-                        {
-                            HttpOnly = true,
-                            Secure = true,
-                            SameSite = SameSiteMode.Strict,
-                            Expires = DateTime.UtcNow.AddHours(_refrashKeyExpires)
-                        };
+                        //// Set Refresh Token as HttpOnly cookie
+                        //var cookieOptions = new CookieOptions
+                        //{
+                        //    HttpOnly = true,
+                        //    Secure = true,
+                        //    SameSite = SameSiteMode.Strict,
+                        //    Expires = DateTime.UtcNow.AddHours(_refrashKeyExpires)
+                        //};
 
-                        Response.Cookies.Append("refreshToken", refreshTokenString, cookieOptions);
+                        //Response.Cookies.Append("refreshToken", refreshTokenString, cookieOptions);
 
                         // Return access token in response body
-                        return Ok(new { accessToken = accessTokenString, user = userInfo });
-                    }
-                }
-            }
+                        return Ok(new { accessToken = accessTokenString, refreshToken = refreshTokenString });
+                //        }
+                //    }
+            //}
+        }
+
+        [HttpPost("/getAuth")]
+        public IActionResult getAuth()
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, "asdad")
+            };
+
+            var accesskey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_accessKey));
+            var refrashkey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_refrashKey));
+
+            var accessToken = new JwtSecurityToken(
+                issuer: _issuer,
+                audience: _audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(_accessKeyExpires),
+                signingCredentials: new SigningCredentials(accesskey, SecurityAlgorithms.HmacSha256)
+            );
+
+            var accessTokenString = new JwtSecurityTokenHandler().WriteToken(accessToken);
+
+            return Ok(new { accessToken = accessTokenString });
         }
 
         [HttpPost("/logout")]

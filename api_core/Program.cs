@@ -30,7 +30,7 @@ app.UseCors(configurePolicy: policy =>
 });
 
 // Register Decryption Middleware
-app.UseMiddleware<DecryptionMiddleware>();
+app.UseMiddleware<EncryptionMiddleware>();
 
 app.UseHttpsRedirection();
 

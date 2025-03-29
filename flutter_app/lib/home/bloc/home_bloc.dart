@@ -1,4 +1,3 @@
-import 'package:flutter_app/home/model/home_model.dart';
 import 'package:flutter_app/home/repository/home_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

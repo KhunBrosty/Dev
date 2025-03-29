@@ -26,12 +26,13 @@ public class EncryptionMiddleware
             string encryptedRequestBody = await reader.ReadToEndAsync();
 
             var jsonDoc = JsonDocument.Parse(encryptedRequestBody);
-            if (!jsonDoc.RootElement.TryGetProperty("data", out JsonElement encryptedDataElement))
-            {
-                context.Response.StatusCode = StatusCodes.Status400BadRequest;
-                await context.Response.WriteAsync("Missing 'data' field in request");
-                return;
-            }
+            jsonDoc.RootElement.TryGetProperty("data", out JsonElement encryptedDataElement);
+            //if (!jsonDoc.RootElement.TryGetProperty("data", out JsonElement encryptedDataElement))
+            //{
+            //    context.Response.StatusCode = StatusCodes.Status400BadRequest;
+            //    await context.Response.WriteAsync("Missing 'data' field in request");
+            //    return;
+            //}
 
             string encryptedData = encryptedDataElement.GetString()!;
             string decryptedJson = DecryptAES(encryptedData);
